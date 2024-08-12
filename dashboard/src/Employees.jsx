@@ -81,7 +81,7 @@ export default function Employees() {
             <p><strong>Manager/TL:</strong> {selectedEmployee.Manager_TL}</p>
             <p><strong>Plant Location:</strong> {selectedEmployee.Location}</p>
             <div className="modal-buttons">
-              <button onClick={() => navigate(`/Records/${selectedEmployee.Email}`)}>Attendance Record</button>
+              <button onClick={() => navigate(`/Records`)}>Attendance Record</button>
             </div>
           </div>
         </div>
